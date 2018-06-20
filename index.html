@@ -1,0 +1,67 @@
+<!--Yahong Zheng-->
+<!--ISTE340-->
+<!--Project 1-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=utf-8 />
+		<title>Yahong Zheng Project One</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	
+	<body onload="start()">
+		<!--container-->
+		<div id="mainDiv">
+			<!--header-->
+			<header>
+				<h1>Vicky's Hair Salon</h1>
+			</header>
+			
+			<!--validating form-->
+			<div id="valiForm">
+				<form id="form">
+					<p>Name: <input id="name" type="text" name="name" required></p>
+					<p>Phone Number: <input id="number" type="text" name="number" required></p>
+					<input id="submit" type="submit" value="Submit" onclick="submitForm()">
+				</form>
+			</div>
+			
+			<!--delete cookie-->
+			<button type="button" onclick="deleteCookie()">Delete Cookie</button>
+		
+			<!--slide show-->
+			<div class="slide-container">
+				<div class="images">
+					<img src="picture/Long Bob.jpg">
+				</div>
+				<div class="images">
+					<img src="picture/Blunt Cut.jpg">
+				</div>
+				<div class="images">
+					<img src="picture/Long Side Swept Bangs.jpg">
+				</div>
+				<div class="images">
+					<img src="picture/Light Auburn.jpg">
+				</div>
+				<div class="images">
+					<img src="picture/Dirty Blonde.jpg">
+				</div>
+				<div class="images">
+					<img src="picture/Golden Blonde.jpg">
+				</div>
+			</div><!--end slide show-->
+			
+
+		</div> <!--end mainDiv-->	
+		
+		<!--footer-->
+		<footer>
+			Copyright © 2018 Yahong Zheng
+			<a href="reference.html">Reference</a>
+		</footer>
+	</body>
+</html>
+<script type="text/javascript" src="projectJS.js"></script>
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="cookies.js"></script>
